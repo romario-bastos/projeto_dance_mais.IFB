@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+	<head>
+		<title>Agendamento</title>
+		<meta charset="UTF-8" /> <!--PODENDO USAR "ISO-8859-1"-->
+		<meta name="author" content="Romário Bastos" />
+		<meta name="keywords" content="dance, mais, zumba, aulas, aulas coletivas, atividade física"/>
+		<meta name="desciption" content="Projeto dance mais com intuito de levar a alegria e felicidade aos alunos através da Zumba">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+
+	<body>
+
+		<header>
+			<img src="Imagens/banner.png" width="100%" height="" />
+		</header>
+
+		<nav>
+			<a class="a-menu" href="index.html">Home</a>
+			<a class="a-menu" href="formulario.html">Agendamento</a>
+
+		</nav>
+
+        <section id="pag-agendamentos">
+
+			<h1>AGENDAMENTO</h1>
+
+			<p>Agende uma aula experimental</p>
+
+
+			<form name="" method="" action="">
+
+				<label for="nome">Nome:</label><br/>
+				<input id="nome" type="text" name="nome" size="70" maxlength="100" placeholder="Nome completo" required /><br/>
+
+				<label for="email">E-mail:</label><br/>
+				<input id="email" type="email" name="email" size="70" placeholder="nome@email.com"/><br/>
+
+				<label for="telefone">Telefone/Whatsapp:</label><br/>
+				<input id="telefone" type="tel" name="telefone" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$"/><br/>
+
+				<div id="data-hora-num">
+					<div>
+						<label for="data">Data:</label><br/>
+						<input id="data" type="date" name="data"/><br/>
+					</div>
+					<div>
+						<label for="hora">Hora:</label><br/>
+						<input id="hora" type="time" name="hora"/><br/>
+					</div>
+					<div>
+						<label for="aula">Aulas:</label><br/>
+						<input id="aula" type="number" name="aula" max="5" min="1" step="1"/><br/>
+					</div>
+				</div>		
+
+				<label for="nivel">Nível</label><br/>
+				<select id="nivel" name="nivel">
+					<option value="">Selecione</option>
+					<option value="basico">Primeira vez</option>
+					<option value="intemediario">Já fez aula</option>
+					<option value="avancado">Já fez aula com outro professor</option>
+				</select><br/>
+
+				<fieldset>
+					<legend>Gênero:</legend>
+					<input id="masc" type="radio" name="genero" value="masc" /> <label for="masc">Masculino</label><br/>
+					<input id="fem" type="radio" name="genero" value="fem" /> <label for="fem">Feminino</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>É praticante de alguma atividade física:</legend>
+					<input id="danca" type="checkbox" name="atividade" value="danca" /> <label for="danca">Dança (diversas)</label><br/>
+					<input id="musculacao" type="checkbox" name="atividade" value="musculacao" /> <label for="musculacao">Musculação</label><br/>
+					<input id="corrida" type="checkbox" name="atividade" value="corrida" /> <label for="corrida">Caminhada e/ou corrida</label><br/>
+					<input id="outras" type="checkbox" name="atividade" value="outrasida" /> <label for="outras">Outras</label><br/>
+				</fieldset>
+
+				<!--
+				<label for="senha">Senha:</label><br/>
+				<input id="senha" type="password" name="senha" size="70" placeholder="Somente números" />
+				-->
+
+				<label for="msg">Mensagem:</label><br/>
+				<textarea id="msg" cols="48" rows="4"></textarea>
+
+				<br/><br/>
+				<input type="submit" name="bt-agendar" value="AGENDAR"/>
+				<input type="reset" name="bt-cancelar" value="CANCELAR"/>
+
+			</form>
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por <a href="https://www.instagram.com/romas.bastos/" target="_blank">Romário Bastos</a> - 2022</p>
+		</footer>
+	
+
+	</body>
+
+</html>							
