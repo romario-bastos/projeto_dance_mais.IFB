@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: f0f0f0;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    background: #b40dff;
+}
+
+nav{
+    background-color: #b40dff;
+    padding: 16px;
+    text-align: center;
+}
+
+.menu:link, .menu:visited{
+    color: #fff;
+    font: 1.2rem 'Poppins', sans-serif;
+	text-decoration: none;
+	font-weight: 500;
+	margin-right: 20px;
+}
+
+.menu:hover, .menu:active{
+	color: #6ee8f8;
+}
+
+a{
+	font:1.2rem 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+.a-menu{
+	margin-right: 40px;
+	font-weight: bold;
+}
+
+.a-menu:link, .a-menu:visited{
+	color:#FFF;
+}
+
+.a-menu:hover, .a-menu:active{
+	color: #3F51B5;
+}
+
+main, #page-home, #page-instrutor, #page-localizacao, #page-midia, #page-contato, #page-agendamento{
+    padding: 50px;
+}
+
+h1{
+	text-align: center;
+	color: #3f51b5;
+	font-family: "Kaushan Script", cursive;
+	font-size: 3rem;
+}
+
+h2{
+	color: #3f51b5;
+	font-family: "Kaushan Script", cursive;
+	font-size: 1.5rem;
+}
+
+h3{
+	color: #3f51b5;
+	font-family: "Kaushan Script", cursive;
+	font-size: 1.5rem;
+}
+
+h4{
+	color: #3f51b5;
+	font-family: "Kaushan Script", cursive;
+	font-size: 1.5rem;
+}
+
+p{
+	text-align: justify;
+	color: #111175;
+	font: 1.0rem 'Poppins', sans-serif;
+}
+
+#page-instrutor{
+	background-color: #0191a4a9;
+	margin: auto;
+}
+
+#page-instrutor h2, #page-instrutor p{
+	color: #3f51b5;
+	font-family: "Kaushan Script", cursive;
+	font-size: 1.5rem;
+	margin: auto;
+}
+
+#page-instrutor img{
+    width: 30%;
+    border-radius: 14px;
+    padding: 5px;
+}
+
+#page-instrutor ul{
+   padding-top: 50px;
+}
+
+#page-instrutor p{
+	color: #fff;
+	font-size: 2rem;
+}
+
+.conteiner_instrutor_mini{
+	display: flex;
+	width: 40%;
+}
+
+.conteiner_instrutor{
+	display: flex;
+	width: 60%;
+	background-color: #0191a4a9;
+	border-radius: 14px;
+	box-shadow: 10px 10px 10px #ccc;
+	transition: 1s;
+}
+
+.conteiner_instrutor:hover{
+	box-shadow: 10px 10px 10px #4dd0e1;
+}
+
+.conteiner_instrutor img{
+	width: 100%;
+}
+
+.conteiner_instrutor ul{
+	list-style-type: circle;
+	list-style-position: inside;
+	margin-left: 50px;
+	margin: auto;
+}
+
+.conteiner_instrutor li{
+	color: #fff;
+	font: 1.2rem 'Poppins', sans-serif;
+	line-height: 2.0rem;
+}
+
+#page-localizacao{
+	background-color: rgba(124, 121, 121, 0.164);
+}
+
+.conteiner {
+	display: flex;
+	grid-gap: 10px;
+	text-align: center;
+}
+
+.card {
+	width: 60%;
+	background-color: #fff;
+	border-radius: 14px;
+	box-shadow: 10px 10px 10px #ccc;
+	transition: 1s;
+}
+
+.card:hover{
+	box-shadow: 10px 10px 10px #777;
+}
+
+.card img{
+	width: 50%;
+}
+
+.mini_card{
+	width: 60%;
+	grid-gap: 10px;
+}
+
+.mini_card img{
+	width: 50%;
+}
+
+#page-localizacao{
+	background-color: rgba(124, 121, 121, 0.164);
+}
+
+#page-midia{
+	background-color: #eee;
+}
+
+.conteiner_midia{
+	display: flex;
+	grid-gap: 10px;	
+	background-color: #d1d9ff;
+	padding: 10px;
+	border-radius: 14px;
+	box-shadow: 10px 10px 10px #ccc;
+	transition: 1s;
+}
+
+.conteiner_midia{
+	box-shadow: 10px 10px 10px #777;
+}
+
+.card:hover{
+	box-shadow: 10px 10px 10px #777;
+}
+
+#page-contato{
+	background-color: #d7ffd9;
+}
+
+.card_contatos img{
+	width: 10%;
+}
+
+video{
+	width: 350px;
+	margin: 0 70px;
+}
+
+footer{
+	background-color: #212121;
+	padding: 20px;
+}
+
+footer p, footer a{
+	color: #fff;
+	text-align: center;
+}
+
+footer a{
+	text-decoration: none;
+	font-weight: 700;
+}
+
+#pag-agendamentos p{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form{
+	width: 400px;
+	margin: 0 auto;
+}
+
+input, select, textarea{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #C4C4C4;
+	color: #777;
+}
+
+label, fieldset, input, select, textarea{
+	font: 1rem 'Roboto', sans-serif;
+}
+
+fieldset{
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+	padding:10px;
+}
+
+#data-hora-num{
+	display: flex;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+	margin-left: 50px;
+}
+
+textarea{
+	height: 80px;
+}
+
+#botoes-form{
+	display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+	margin: 5px auto;
+	background-color: #67a520;
+	color: #FFF;
+	border: 0;
+	border-radius: 5px;
+}
+
+input[type="reset"]{
+	background-color: #f11d1d;
+}
